@@ -83,3 +83,6 @@ nnoremap <Down> :echoe "Use j"<CR>
 " Treat <li> and <p> tags like the block tags they are
 let g:html_indent_tags = 'li\|p'
 
+au BufRead,BufNewFile *.json set filetype=json
+au! Syntax json source /Users/nick/.vim/ftplugin/json.vim
+

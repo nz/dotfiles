@@ -49,9 +49,10 @@ if executable("ack")
 endif
 
 " Color scheme
-colorscheme github
-highlight NonText guibg=#060606
-highlight Folded  guibg=#0A0A0A guifg=#9090D0
+let g:solarized_termcolors=256
+let g:solarized_visibility="low"    "default value is normal
+set background=dark
+colorscheme solarized
 
 " Numbers
 set number
@@ -86,3 +87,4 @@ let g:html_indent_tags = 'li\|p'
 au BufRead,BufNewFile *.json set filetype=json
 au! Syntax json source /Users/nick/.vim/ftplugin/json.vim
 
+set nocindent

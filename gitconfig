@@ -30,3 +30,5 @@
 [core]
 	quotepath = false
 	excludesfile = /Users/nick/.gitignore
+[rerere]
+	enabled = 1

@@ -1,4 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/Users/nick/Dropbox/Sites/websolr/.bundle/gems/ruby/1.9.1/gems/bootstrap-sass-1.4.3'
-let g:netrw_dirhist_2='/Users/nick/Dropbox/Sites/websolr'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/nick/Projects/dicare'
+let g:netrw_dirhist_2='/Users/nick/Projects/espr'
+let g:netrw_dirhist_3='/Users/nick/Sites/bonsai'
+let g:netrw_dirhist_4='/Users/nick/Projects/espr'
+let g:netrw_dirhist_5='/Users/nick/Dropbox/Sites/websolr'
+let g:netrw_dirhist_6='/Users/nick/Sites/bonsai'
+let g:netrw_dirhist_7='/Users/nick/Projects/websolr/proxr'

@@ -1,5 +1,9 @@
 " No audible bell
-set vb
+"set vb
+
+" solarized in macvim should be light
+set background=light
+let g:solarized_visibility="low"    "default value is normal
 
 " No toolbar
 set guioptions-=T
@@ -19,11 +23,11 @@ if has("gui_macvim")
 end
 
 " Auto-indent stuff
-set cindent
+"set cindent
 set smartindent
 set autoindent
 set expandtab
-set tabstop=2
+set tabstop=4
 set shiftwidth=2
 set cinkeys=0{,0},:,0#,!,!^F
 
@@ -31,7 +35,7 @@ set cinkeys=0{,0},:,0#,!,!^F
 set lines=50 columns=110
 
 " Default font
-set guifont=Menlo\ Regular:h14
+set guifont=Source\ Code\ Pro:h14
 
 " Line numbers
 set number
